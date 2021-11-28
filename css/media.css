@@ -1,0 +1,528 @@
+/* Extra large devices (large desktops, 1200px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1560px) {
+  footer .footer_body .send_massange {
+    right: 0;
+  }
+
+  footer .footer_body .card {
+    right: 0;
+  }
+}
+
+@media (max-width: 1275px) {
+  nav .contener .nav_full_menu .user_prpfile {
+    position: absolute;
+    top: -45px;
+    right: 10px;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(2)::after {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(3)::after {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(4)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  nav .contener .massange {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(2)::after {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(3)::after {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(4)::after {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile {
+    position: absolute;
+    top: -45px;
+    right: 10px;
+  }
+
+  .nav_full_menu .menu {
+    position: absolute;
+    right: 0;
+    width: 745px;
+  }
+
+  nav .contener .nav_full_menu .compani_info:nth-of-type(1) {
+    width: 135px;
+  }
+
+  header .contener {
+    max-width: 100%;
+  }
+
+  header .contener .filter_header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    margin-top: -180px;
+  }
+
+  header .contener .filter_header #header_form {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  header .contener .filter_header .text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  header .contener .filter_header #header_form select {
+    width: 80%;
+  }
+
+  header .contener .filter_header #header_form #filter_header_sports,
+  header .contener .filter_header #header_form #filter_header_loading,
+  header .contener .filter_header #header_form #quantity {
+    margin: 10px 0px;
+  }
+
+  header .contener .filter_header #header_form #filter_header_sports,
+  header .contener .filter_header #header_form #filter_header_loading,
+  header .contener .filter_header #header_form #quantity {
+    margin: 10px 0px;
+    width: 100%;
+  }
+
+  .my_sorts .body_news .body_news_content:nth-of-type(4) {
+    display: none;
+  }
+
+  footer .footer_body .send_massange {
+    right: 0;
+  }
+
+  footer .footer_body .card {
+    right: 0;
+  }
+
+  .slick-slider {
+    width: 80%;
+  }
+
+  .my_sorts .foot_img::after {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+  .nav_full_menu .menu {
+    display: none;
+  }
+
+  nav .contener .nav_full_menu .send_massange {
+    width: 160px;
+    top: 75px;
+  }
+
+  nav .contener .nav_full_menu .compani_info:nth-of-type(2) {
+    top: 20px;
+  }
+
+  nav .contener .nav_full_menu .compani_info:nth-of-type(1) {
+    right: 5px;
+    top: 45px;
+  }
+
+  nav .contener .logo {
+    width: 175px;
+    height: 175px;
+    background-size: 170px;
+    margin-left: 65px;
+  }
+
+  nav .contener .mob_menu {
+    display: block;
+  }
+
+  .slick-slider {
+    width: 80%;
+  }
+
+  nav .contener .logo {
+    top: -35px;
+  }
+
+  nav .contener .mob_menu {
+    top: -40px;
+  }
+
+  nav {
+    background-size: 100% 175px;
+  }
+
+  .my_sorts .body_news .body_news_content:nth-of-type(3) {
+    display: none;
+  }
+
+  .my_sorts .body_news .body_news_content {
+    width: 400px;
+  }
+
+  footer .footer_body {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .my_sorts .foot_img::after {
+    display: none;
+  }
+
+  header .soc_sites {
+    display: none;
+  }
+
+  .shop_block .block_products {
+    position: relative;
+  }
+
+  .shop_block .block_products .filters {
+    width: calc(100% + 10px);
+    overflow: hidden;
+    height: 0px;
+    transition: 1s;
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 0;
+    top: 5px;
+    left: -5px;
+  }
+
+  .shop_block .block_products .products {
+    width: 100%;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+  footer .footer_body .contener {
+    margin: 10px;
+  }
+
+  /* body {
+    background: #74bd00;
+  } */
+
+  .sliders {
+    background: #ffffff;
+  }
+
+  /* footer .footer_body .send_massange {
+    margin: 0 auto;
+    margin-top: -50px;
+    left: 0;
+    top: 0;
+  } */
+
+  .slick-next {
+    right: -25px;
+    background: url(../img/icopn_slider_next.png) no-repeat center center;
+    background-size: 17px 40px;
+    width: 30px;
+  }
+
+  .slick-prev {
+    right: -25px;
+    background: url(../img/icon_prev_slider.png) no-repeat center center;
+    background-size: 17px 40px;
+    width: 30px;
+  }
+
+  nav .contener .logo {
+    top: -35px;
+  }
+  .shop_block .page_block {
+    width: 100%;
+  }
+  #products_edit{
+    display: none;
+  }
+  #products_adjust{
+    display: none;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  nav .contener .logo {
+    width: 95px;
+    height: 95px;
+    background-size: 95px;
+    margin-left: 55px;
+  }
+
+  nav .contener .nav_full_menu .send_massange {
+    display: none;
+  }
+
+  header .contener .info_slider {
+    width: calc(100% - 20px);
+    background-size: contain;
+    margin: 0 auto;
+    padding-top: 130px;
+  }
+
+  header .contener .info_slider .info_slider_buttons {
+    width: 100%;
+    border: 2px solid #5b9600;
+  }
+
+  header .contener .filter_header {
+    transform: translateY(190px);
+  }
+
+  header .contener .info_slider .logo_poulowina {
+    width: 335px;
+    height: 50px;
+    background-size: 215px;
+    display: inline-block;
+    margin: 45px 0px 0px 65px;
+  }
+
+  header .contener .info_slider .info_slider_text {
+    text-align: center;
+    text-transform: unset;
+    margin-bottom: 50px;
+  }
+
+  /* .slick-next {
+    display: none;
+  }
+  .slick-prev {
+    display: none;
+  } */
+  .my_sorts .my_sorts_heading {
+    height: auto;
+  }
+
+  .my_sorts .my_sorts_heading .my_sorts_heading_fullBody {
+    height: auto;
+  }
+
+  .my_sorts .my_sorts_heading .products {
+    flex-wrap: wrap;
+  }
+
+  .my_sorts .my_sorts_heading .products .Name {
+    margin: 10px 0;
+  }
+
+  .my_sorts .body_news .body_news_content:nth-of-type(2) {
+    display: none;
+  }
+
+  .my_sorts .body_news .body_news_content {
+    width: 300pxpx;
+  }
+
+  .slick-slider {
+    margin-top: 150px;
+  }
+
+  .slider_two {
+    background-size: cover;
+  }
+
+  header .contener .info_slider .info_slider_buttons {
+    margin-top: 15px;
+  }
+
+  header .contener .info_slider .info_slider_text {
+    display: none;
+  }
+
+  header .contener .info_slider .logo_poulowina {
+    display: none !important;
+  }
+
+  header .contener .info_slider {
+    background: url(../img/mob_header_elipse.png) no-repeat center center;
+    background-size: contain;
+    padding-top: 195px;
+  }
+
+  .my_sorts .foot_img {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
+    margin: 0px 5px;
+  }
+
+  .my_sorts .sub_text_news {
+    margin-bottom: 20px;
+  }
+
+  .slider_two {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .slider_two .boy_button {
+    border: 1px solid #fff;
+    margin-top: -25px;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(4) {
+    width: 25px;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile .icons:nth-of-type(4) .opening_modal {
+    left: -135px;
+    top: 27px;
+  }
+
+  .sliders .boy_button {
+    margin-top: -35px;
+  }
+
+  .slider_fot_name {
+    margin-top: 60px;
+  }
+
+  .slider_two {
+    padding-top: 50px;
+  }
+
+  .slider_two .slick-slider {
+    margin-top: 20px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .my_sorts {
+    padding-bottom: 40px;
+  }
+  .shop_block .massange_shop{
+    padding: 20px 5px;
+  }
+
+  .shop_block .massange_shop .text{
+    text-align: left;
+  }
+  .shop_block .block_products .products {
+    width: 100%;
+ 
+}
+.shop_block{
+  padding: 0 5px;
+}
+}
+
+@media (max-width: 430px) {
+  nav .contener .nav_full_menu .user_prpfile .icons {
+    margin: 0px 2px;
+  }
+
+  nav .contener .logo {
+    width: 95px;
+    height: 72px;
+    background-size: 86px;
+    margin-left: 37px;
+  }
+
+  nav .contener .nav_full_menu .compani_info:nth-of-type(2) {
+    top: 2px;
+    font-size: 14px;
+  }
+
+  nav .contener .nav_full_menu .compani_info:nth-of-type(1) {
+    top: 20px;
+    font-size: 15px;
+    right: 0px;
+  }
+
+  header .contener .info_slider {
+    height: 430px;
+  }
+
+  header .contener .info_slider .logo_poulowina {
+    width: 245px;
+  }
+
+
+
+  header .contener .info_slider .logo_poulowina {
+    width: 185px;
+    height: 50px;
+    background-size: 175px;
+    display: inline-block;
+    margin: 45px 0px 0px 65px;
+  }
+
+  footer .footer_body .sites {
+    position: relative;
+  }
+
+  nav .contener .nav_full_menu .user_prpfile #languages {
+    width: 55px;
+    padding-right: 10px;
+  }
+
+  .my_sorts .my_sorts_heading .my_sorts_heading_fullBody .my_sorts_heading_body {
+    justify-content: space-around;
+  }
+
+  .my_sorts .foot_img .img {
+    width: 100%;
+    margin: unset;
+  }
+
+
+  nav {
+    background-size: 100% 80px;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  header .contener .info_slider .logo_poulowina {
+    width: 265px;
+  }
+
+  .maps_site {
+    margin-top: -1px;
+    width: 100%;
+  }
+
+
+
+  nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+
+
+  header .contener .info_slider .logo_poulowina {
+    width: 195px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

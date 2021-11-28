@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styls -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="js/all.js"></script>
+    <title>POULOWINA</title>
+</head>
+
+<body style="background: #E5E7E4">
+    <div class="massamge_top">
+        <marquee class="contaner">
+            Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum
+            generator.Reference site about Lorem Ipsum, giving information on its origins, as
+            <span class="close_masange"></span>
+        </marquee>
+    </div>
+    <!-- nav bar -->
+    <nav>
+        <div class="contener">
+            <div class="mob_menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo"></div>
+            <!-- <div class="massange"></div> -->
+            <div class="nav_full_menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">главная</a></li>
+                        <li id="menu_paulownia">
+                            <a href="#">павловния</a>
+                            <span class="opening_menu"></span>
+                            <div class="opening_menu_paulownia">
+                                <a href="#">О Павловнии</a>
+                                <a href="#">Наши Гибриды <i class="fas fa-chevron-left"></i></a>
+                                <a href="#">Создание плантаций</a>
+                                <a href="#">Древисна</a>
+                                <a href="#">Павловния в саду </a>
+                                <a href="#">Брошюра</a>
+                                <div class="new_paulownia">
+                                    <a href="#" style="color: #5b9600; text-transform: uppercase">Промышленные</a>
+
+                                    <a href="#">Paulownia Ze Pro®</a>
+                                    <a href="#">Paulownia TURBO PRO®</a>
+                                    <a href="#">PrOxY 2® </a>
+                                    <a href="#">Paulownia Shan Tong</a>
+                                    <a href="#">Paulownia Z07</a>
+
+                                    <a href="#" style="color: #5b9600; text-transform: uppercase">Для озеленения</a>
+
+                                    <a href="#">Paulownia Elongata</a>
+                                    <a href="#">Paulownia Tomentosa</a>
+                                    <a href="#">Paulownia Kawakamii</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">МАГАЗИН</a></li>
+                        <li><a href="#">новости</a></li>
+                        <li><a href="#">ГАЛЕРЕЯ</a></li>
+                        <li id="buisnes_plan">
+                            <a href="#">БИЗНЕС-ПЛАН</a>
+                            <span class="opening_menu"></span>
+                            <div class="buisnes">
+                                <a href="#">Сертифицированные саженцы</a>
+                                <a href="#">Контракт на поставку саженцев</a>
+                                <a href="#">Анализ плантаций</a>
+                                <a href="#">Расчет прибыльности бизнеса</a>
+                                <a href="#">Пособие по взращиванию </a>
+                                <a href="#">Выкуп древесины</a>
+                            </div>
+                        </li>
+                        <li><a href="#">О НАС</a></li>
+                    </ul>
+                </div>
+                <div class="user_prpfile">
+                    <span class="icons"></span>
+                    <span class="icons"></span>
+                    <span class="icons"></span>
+                    <span class="icons" id="icons_open_modal">
+                        <div class="opening_modal">
+                            <a href="#">Мои данные</a>
+                            <a href="#">Корзина</a>
+                            <a href="#">Список желаний</a>
+                            <a href="#">Заказы</a>
+                            <a href="#">Расчеты прибыльности</a>
+                            <a href="#">Мои плантации</a>
+                            <a href="#">Документы</a>
+                            <a href="#">Настройка пароля</a>
+                            <button class="login">Sign out</button>
+                        </div>
+                    </span>
+                    <div id="languages">
+                        <p class="active_languages">RU</p>
+                        <a href="#" class="countryCode">ES</a>
+                        <a href="#" class="countryCode">EN</a>
+                        <a href="#" class="countryCode">RU</a>
+                        <a href="#" class="countryCode">PT</a>
+                        <a href="#" class="countryCode">FR</a>
+                        <a href="#" class="countryCode">IT</a>
+                        <a href="#" class="countryCode">UA</a>
+                        <a href="#" class="countryCode">AR</a>
+                        <a href="#" class="countryCode">PL</a>
+                    </div>
+                </div>
+                <a class="compani_info" href="tel:+34642787555">+34 642 787 555</a>
+                <a class="compani_info" href="mailto:info@paulownia.pro">info@paulownia.pro</a>
+                <button class="send_massange">напишите нам</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- mobile menu -->
+    <div class="mobile_menu">
+        <div class="mobile_menu_nav">
+            <div class="menu_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <span>Menu</span>
+            <div class="icon_close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <!-- table menu  -->
+        <div class="table_menu">
+            <a href="#">главная</a>
+            <div class="table_podmenu_one">
+                <p class="text_one_podmenu">Павловния <i class="fas fa-chevron-left" id="mob_menu_icons_to_open_1"></i>
+                </p>
+                <a href="#">О павловнии</a>
+                <a href="#">Наши гибриды</a>
+                <a href="#">Создание плантаций</a>
+                <a href="#">Павлвния в саду</a>
+                <a href="#">Древесина</a>
+                <a href="#">Брошюра</a>
+            </div>
+
+            <a href="#">Магазин</a>
+            <a href="#">Новости</a>
+            <a href="#">Галерея</a>
+
+            <div class="table_podmenu_two">
+                <p class="text_one_podmenu_tow">Бизнес - план <i class="fas fa-chevron-left"
+                        id="mob_menu_icons_to_open_2"></i>
+                </p>
+                <a href="#">Сертифицированные саженцы</a>
+                <a href="#">Контракт на поставку саженцев</a>
+                <a href="#">Анализ плантаций</a>
+                <a href="#">Расчет прибыльности бизнеса</a>
+                <a href="#">Пособие по взращиванию</a>
+                <a href="#">Выкуп древесины</a>
+            </div>
+
+            <a href="#">О нас</a>
+
+            <div class="table_podmenu_three">
+                <p class="text_one_podmenu_three">Личный кабинет <i class="fas fa-chevron-left"
+                        id="mob_menu_icons_to_open_3"></i></p>
+                <a href="#">Мои данные</a>
+                <a href="#">Корзина</a>
+                <a href="#">Список желаний</a>
+                <a href="#">Заказы</a>
+                <a href="#">Расчеты прибыльности</a>
+                <a href="#">Мои плантации</a>
+                <a href="#">Документы</a>
+                <a href="#">Настройка пароля</a>
+            </div>
+        </div>
+        <button class="menu_buttons_for_regLog">вход</button>
+        <button class="menu_buttons_for_regREG">регистрация</button>
+    </div>
+
+
+    <section class="news_block">
+        <p class="title">PAULOWNIA PROFESSIONAL®</p>
+        <p class="sub_title">новости</p>
+        <div class="tatle_nav">
+            <button id="block_news">новости</button>
+            <button id="block_blog">блог</button>
+            <button id="block_info">информация</button>
+        </div>
+
+
+        <div class="news_block_body">
+            <div class="search_block">
+                <div class="sec" id="select_news" style="display: none;">
+                    <span class="op_t" style="border-radius: 40px;">Страна</span>
+                    <div class="body_sec">
+                        <span class="op">Страна</span>
+                        <span class="op">Страна</span>
+                        <span class="op">Страна</span>
+                    </div>
+                </div>
+                <form action="#" method="post">
+                    
+                    <label for="search_news_page">
+                        <input id="search_news_page" type="text" placeholder="Поиск">
+                    </label>
+                </form>
+                <div class="icon_to_news_block">
+                    <div>
+                        <i class="fas fa-border-all"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="news_block_1">
+                <!-- block news  -->
+                <div class="news_lock_body">
+                    <!-- start news block  -->
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <img src="img/news_page_blocks.png" alt="Image to news Pgae">
+                        <div class="texts">
+                            <a href="#">
+                                <div class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </div>
+                            </a>
+                            <div class="days">
+                                February 26, 2014
+                            </div>
+                            <div class="sub_text">
+                                Добрый день всем! Ко мне приходят много вопросов от людей, которые хотят посадить
+                                paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или
+                                как ее открыть. <a href="#">...подробне</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end blocks news  -->
+                <div class="pages_buttons">
+                    <div class="page_left"></div>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">...</a>
+                    <a href="#">10</a>
+                    <div class="page_rigth"></div>
+                </div>
+            </div>
+            <div id="news_block_2">
+                <!-- block news  -->
+                <div class="news_lock_body">
+                    <div class="block_to_news">
+                        <img src="img/news_page_blocks.png" alt="">
+                        <div class="texts">
+                            <a href="#">
+                                <p class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </p>
+                            </a> 
+                            <p class="categori">
+                                Категория: <a href="#">Выращивание</a> 
+                            </p>
+                            <p class="sub_text">
+                                Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть. Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть.
+                                 <a href="#">подробнее</a>    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block_to_news">
+                        <img src="img/news_page_blocks.png" alt="">
+                        <div class="texts">
+                            <a href="#">
+                                <p class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </p>
+                            </a> 
+                            <p class="categori">
+                                Категория: <a href="#">Выращивание</a> 
+                            </p>
+                            <p class="sub_text">
+                                Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть. Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть.
+                                 <a href="#">подробнее</a>    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block_to_news">
+                        <img src="img/news_page_blocks.png" alt="">
+                        <div class="texts">
+                            <a href="#">
+                                <p class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </p>
+                            </a> 
+                            <p class="categori">
+                                Категория: <a href="#">Выращивание</a> 
+                            </p>
+                            <p class="sub_text">
+                                Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть. Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть.
+                                 <a href="#">подробнее</a>    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block_to_news">
+                        <img src="img/news_page_blocks.png" alt="">
+                        <div class="texts">
+                            <a href="#">
+                                <p class="title">
+                                    Формирование чаши Павловнии Томентоса
+                                </p>
+                            </a> 
+                            <p class="categori">
+                                Категория: <a href="#">Выращивание</a> 
+                            </p>
+                            <p class="sub_text">
+                                Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть. Добрый день всем! Ко мне  приходят много вопросов от людей, которые хотят посадить paulownia tomentosa в свой сад или уже имеют его, и не знают, как сформировать чашу или как ее открыть.
+                                 <a href="#">подробнее</a>    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pages_buttons" style="margin-top: 20px;">
+                        <div class="page_left"></div>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">...</a>
+                        <a href="#">10</a>
+                        <div class="page_rigth"></div>
+                    </div>
+                  
+                </div>
+                    
+            </div>
+            <div id="news_block_3">
+                <!-- block news  -->
+                <div class="news_lock_body">
+                    <p>
+                        Павловния — дерево-нефтяная скважина!
+                    </p>
+                    <p>
+                        Существует вид дерева, растущего быстро, ровно и высоко, с крупными листьями и прекрасным цветками, легкое, выносливое, простое в обработке, быстро регенерирующее!
+
+                    </p>
+                    <p>
+                        Павловния — это дерево  с наибольшей скоростью роста в мире (другие названия: дерево принцесса, дерево феникс). В оптимальных условиях выращивания за 4 года может достигать 20 метровой высоты и использоваться в качестве сырья.
+                        Известно как минимум 6 видов павловнии: P.Elongate, P.Fargesii, P.Fortunei, P.Giabrata, P.Taiwaniania, P.Tormentosa, а также известно под названием Кире. Павловнию выращивают в Китае более 2000 лет, в США с 1800-х годов, в Японии с 1970 года, и с тех пор экспорт данной древесины достиг размера в миллиард долларов США.
+                        
+                    </p>
+                    <p>
+                        Вид Paulownia Clon in Vitro 112® — это искусственно выведенное и клонированное дерево, которое способно выживать и развиваться в экстремальных условиях (от -27 до +45 С). Зарегистрировано в 2007 году в Институте Видов Растений (официальный орган ЕС). Имеет международное признание, европейский паспорт, европейский сертификат качества и международное разрешение на торговлю.
+
+                        Данный вид древесины играет значительную роль в деревообработке и одновременно может использоваться в качестве биомассы.
+                        Павловния, одно из самых оригинальных видов деревьев, распространенное в западных странах, где процветает его выращивание, преимущественно для производства мебели, изготовления фанеры и создания биомассы.<br>
+                        В деревообрабатывающей и мебельной отраслях она известна под названием «алюминиевое дерево»: Павловния на 30% легче других пород деревьев, растет ровно, не подвержено усушке, а так же ей свойственна высокая устойчивость к вредителям и заболеваниям.
+                        Хорошая, чистая и гладкая древесина, без сучков, благодаря мелковолокнистой структуре идеально подходит для изготовления мебели, фанерных листов, домов, панелей для внутренней отделки.
+                    </p>
+                    <img src="img/information_page_img.png" alt="info page images">
+                    <p>
+                        Существует вид дерева, растущего быстро, ровно и высоко, с крупными листьями и прекрасным цветками, легкое, выносливое, простое в обработке, быстро регенерирующее!
+
+                    </p>
+                    <p>
+                        Павловния — это дерево  с наибольшей скоростью роста в мире (другие названия: дерево принцесса, дерево феникс). В оптимальных условиях выращивания за 4 года может достигать 20 метровой высоты и использоваться в качестве сырья.
+                        Известно как минимум 6 видов павловнии: P.Elongate, P.Fargesii, P.Fortunei, P.Giabrata, P.Taiwaniania, P.Tormentosa, а также известно под названием Кире. Павловнию выращивают в Китае более 2000 лет, в США с 1800-х годов, в Японии с 1970 года, и с тех пор экспорт данной древесины достиг размера в миллиард долларов США.
+                        
+                    </p>
+                    <p>
+                        Вид Paulownia Clon in Vitro 112® — это искусственно выведенное и клонированное дерево, которое способно выживать и развиваться в экстремальных условиях (от -27 до +45 С). Зарегистрировано в 2007 году в Институте Видов Растений (официальный орган ЕС). Имеет международное признание, европейский паспорт, европейский сертификат качества и международное разрешение на торговлю.
+
+                        Данный вид древесины играет значительную роль в деревообработке и одновременно может использоваться в качестве биомассы.
+                        Павловния, одно из самых оригинальных видов деревьев, распространенное в западных странах, где процветает его выращивание, преимущественно для производства мебели, изготовления фанеры и создания биомассы.
+                        В деревообрабатывающей и мебельной отраслях она известна под названием «алюминиевое дерево»: Павловния на 30% легче других пород деревьев, растет ровно, не подвержено усушке, а так же ей свойственна высокая устойчивость к вредителям и заболеваниям.
+                        Хорошая, чистая и гладкая древесина, без сучков, благодаря мелковолокнистой структуре идеально подходит для изготовления мебели, фанерных листов, домов, панелей для внутренней отделки.
+                    </p>
+                  
+                </div>
+                <div class="pages_buttons">
+                    <div class="page_left"></div>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">...</a>
+                    <a href="#">10</a>
+                    <div class="page_rigth"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer style="margin-top: 100px;">
+        <img class="img1" src="img/footer_bg.svg" alt="Footer Image">
+        <img class="img2" src="img/mobile_footer_img.png" alt="Footer Image">
+        <div class="footer_body">
+            <div class="main">
+                <div class="contener">
+                    <span class="title">Разделы:</span>
+                    <a href="#" class="text">ГЛАВНАЯ</a>
+                    <a href="#" class="text">ПАВЛОВНИЯ</a>
+                    <a href="#" class="text">МАГАЗИН</a>
+                    <a href="#" class="text">галерея</a>
+                    <a href="#" class="text">НОВОСТИ</a>
+                    <a href="#" class="text">БИЗНЕС-ПЛАН</a>
+                    <a href="#" class="text">КОНТАКТЫ</a>
+                </div>
+                <div class="contener">
+                    <span class="title">Услуги Paulownia Professional®:</span>
+                    <a href="#" class="text">Продажа саженцев и деревьев павловнии</a>
+                    <a href="#" class="text">Купля/Продажа древесины</a>
+                    <a href="#" class="text">Анализ и персональное проектирование плантаций</a>
+                    <a href="#" class="text">Расчет рентабельности инвестиций</a>
+                    <a href="#" class="text">Консультация на протяжении выращивания</a>
+                    <a href="#" class="text">Выкупаем плантации павловнии</a>
+                </div>
+                <div class="contener">
+                    <span class="title">Правовое предупреждение:</span>
+                    <a href="#" class="text">Условия покупки</a>
+                    <a href="#" class="text">политика конфиденциальности</a>
+                    <a href="#" class="text">FAQ Магазин</a>
+                    <a href="#" class="text">FAQ Уход за саженцами </a>
+                    <a href="#" class="text">Карта сайта</a>
+                </div>
+                <div class="contener">
+                    <span class="title">График работы:</span>
+                    <span class="text"><span style="font-weight: 800">Пн-Пт:</span> 9:00-18:00</span>
+                    <a href="tel:+34642787555" class="text"> +34 642 787 555</a>
+                    <a href="mailto: info@paulownia.pro" class="text">info@paulownia.pro</a>
+                </div>
+                <a href="#" class="send_massange">
+                    <span class="icon_massange"></span>
+                    <button class="text_sends">напишите нам</button>
+                </a>
+                <div class="sites">
+                    <a href="#" class="sites_icon"></a>
+                    <a href="#" class="sites_icon"></a>
+                    <a href="#" class="sites_icon"></a>
+                </div>
+                <div class="card"></div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- page registration -->
+    <div class="page_reg">
+        <div class="title_reg">
+            создать аккаунт
+            <div class="icon_close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!-- form registration -->
+        <form action="#" id="form_reg">
+            <input type="text" name="name" placeholder="Имя Фамилия" />
+            <input type="text" name="last_name" placeholder="Название фирмы" />
+            <input type="text" name="ferm_id_number" placeholder="ID (индитыфикационный номер)" />
+            <input type="text" name="adress" placeholder="Адрес" />
+            <select name="countr" value="">
+                <option value="">Страна</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <input type="text" name="index" placeholder="Индекс" />
+            <select name="city" value="">
+                <option value="">Город</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <select name="province" value="">
+                <option value="">Провинция</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <input type="text" name="tel" placeholder="ТЕЛЕФОН (+380) " />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <p class="capcha">Capcha</p>
+            <input class="submit" type="submit" value="создать аккаунт" />
+        </form>
+        <div class="teg_or"></div>
+        <!-- reg soc set  -->
+        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+        <p class="police_pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+        <p class="info_site">Paulownia proffesional is committed to keeping your information confidential</p>
+    </div>
+
+    <!-- page logout mobile  -->
+    <div class="page_logot">
+        <div class="title_logout">
+            создать аккаунт
+            <div class="icon_close_logout">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <form action="#" id="form_logout">
+            <input type="text" name="email" value="Email" />
+            <input type="password" name="password" value="Password" />
+            <div class="chackbox">
+                <input type="checkbox" id="chack_logout" />
+                <label for="chack_logout">запомнить в системе</label>
+            </div>
+            <p class="capcha">Capcha</p>
+            <input class="submit" type="submit" value="вход" />
+        </form>
+        <div class="teg_or"></div>
+        <!-- reg soc set  -->
+        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+        <p class="police_pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+        <p class="info_site">Paulownia proffesional is committed to keeping your information confidential</p>
+    </div>
+
+    <!-- registration popup dekstop  -->
+    <div class="registration_popup">
+        <!-- body registration  -->
+        <div class="body_registration_popup">
+            <div class="header_registration_popup">
+                <div class="login">войти</div>
+                <div class="title">создать аккаунт</div>
+                <div class="icon_close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <!-- block inputs -->
+            <div class="block_reg">
+                <form action="#">
+                    <div class="block one">
+                        <input type="text" name="name" placeholder="Имя Фамилия" />
+                        <input type="text" name="last_name" placeholder="Название фирмы" />
+                        <input type="text" name="ferm_id_number" placeholder="ID (индитыфикационный номер)" />
+                        <input type="text" name="adress" placeholder="Адрес" />
+                        <div class="sec">
+                            <span class="op_t">Страна</span>
+                            <div class="body_sec">
+                                <span class="op">Страна</span>
+                                <span class="op">Страна</span>
+                                <span class="op">Страна</span>
+                            </div>
+                        </div>
+                        <input type="text" name="index" placeholder="Индекс" />
+                        <div class="sec">
+                            <span class="op_t">Город</span>
+                            <div class="body_sec">
+                                <span class="op">Город</span>
+                                <span class="op">Город</span>
+                                <span class="op">Город</span>
+                            </div>
+                        </div>
+                        <div class="sec">
+                            <span class="op_t">Провинция</span>
+                            <div class="body_sec">
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">BПровинцияG</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                            </div>
+                        </div>
+
+                        <p class="pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted
+                            our
+                            <a href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+                        <p class="pravice">Paulownia proffesional is committed to keeping your information confidential
+                        </p>
+                    </div>
+                    <!-- two block  -->
+                    <div class="block two">
+                        <input type="text" name="tel" placeholder="ТЕЛЕФОН (+380) " />
+                        <input type="email" name="email" placeholder="Email" />
+                        <input type="password" name="password" placeholder="Password" />
+                        <p class="capcha">Capcha</p>
+                        <input class="submit" type="submit" value="создать аккаунт" />
+                        <div class="teg_or"></div>
+                        <!-- reg soc set  -->
+                        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+                        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- body login  -->
+        <div class="body_login_popup">
+            <div class="header_login_popup">
+                <div class="login">войти</div>
+                <div class="title">создать аккаунт</div>
+                <div class="icon_close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <form action="#">
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <div class="pemember_block">
+                    <div class="pemember" data-pemember="false">
+                        <span class="chackbox">
+                            <div class="chack"></div>
+                        </span>
+                        <span class="text">запомнить в системе</span>
+                    </div>
+                    <div class="forgot">забыли пароль?</div>
+                </div>
+                <input type="submit" class="submit" />
+                <div class="teg_or"></div>
+                <!-- reg soc set  -->
+                <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+                <button class="socsite">регистрация через <b>GOOGLE</b></button>
+                <p class="pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                        href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+                <p class="pravice">Paulownia proffesional is committed to keeping your information confidential</p>
+            </form>
+        </div>
+    </div>
+    <script>
+        let windows_width = window.innerWidth;
+        if (windows_width > 1500 && windows_width < 2000) {
+            $(".slider").slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+            });
+
+            $(".my_sorts_heading_fullBody").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                prevArrow: false,
+                nextArrow: false,
+            });
+        }
+        if (windows_width > 700 && windows_width < 1200) {
+            $(".slider").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+            });
+            $(".my_sorts_heading_fullBody").slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                prevArrow: false,
+                nextArrow: false,
+            });
+        }
+        if (windows_width > 500 && windows_width < 700) {
+            $(".slider").slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+            });
+            $(".my_sorts_heading_fullBody").slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                prevArrow: false,
+                nextArrow: false,
+                arows: true,
+                vertical: true,
+            });
+        }
+        if (windows_width > 300 && windows_width < 500) {
+            $(".slider").slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+            });
+            $(".my_sorts_heading_fullBody").slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                prevArrow: false,
+                nextArrow: false,
+                arows: true,
+                vertical: true,
+            });
+            $("#maps")[0].height = 450;
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

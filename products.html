@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styls -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="js/all.js"></script>
+    <title>POULOWINA</title>
+</head>
+
+<body style="background: #E2E3E0;">
+    <div class="massamge_top">
+        <marquee class="contaner">
+            Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum
+            generator.Reference site about Lorem Ipsum, giving information on its origins, as
+            <span class="close_masange"></span>
+        </marquee>
+    </div>
+    <!-- nav bar -->
+    <nav>
+        <div class="contener">
+            <div class="mob_menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo"></div>
+            <!-- <div class="massange"></div> -->
+            <div class="nav_full_menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">главная</a></li>
+                        <li id="menu_paulownia">
+                            <a href="#">павловния</a>
+                            <span class="opening_menu"></span>
+                            <div class="opening_menu_paulownia">
+                                <a href="#">О Павловнии</a>
+                                <a href="#">Наши Гибриды <i class="fas fa-chevron-left"></i></a>
+                                <a href="#">Создание плантаций</a>
+                                <a href="#">Древисна</a>
+                                <a href="#">Павловния в саду </a>
+                                <a href="#">Брошюра</a>
+                                <div class="new_paulownia">
+                                    <a href="#" style="color: #5b9600; text-transform: uppercase">Промышленные</a>
+
+                                    <a href="#">Paulownia Ze Pro®</a>
+                                    <a href="#">Paulownia TURBO PRO®</a>
+                                    <a href="#">PrOxY 2® </a>
+                                    <a href="#">Paulownia Shan Tong</a>
+                                    <a href="#">Paulownia Z07</a>
+
+                                    <a href="#" style="color: #5b9600; text-transform: uppercase">Для озеленения</a>
+
+                                    <a href="#">Paulownia Elongata</a>
+                                    <a href="#">Paulownia Tomentosa</a>
+                                    <a href="#">Paulownia Kawakamii</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">МАГАЗИН</a></li>
+                        <li><a href="#">новости</a></li>
+                        <li><a href="#">ГАЛЕРЕЯ</a></li>
+                        <li id="buisnes_plan">
+                            <a href="#">БИЗНЕС-ПЛАН</a>
+                            <span class="opening_menu"></span>
+                            <div class="buisnes">
+                                <a href="#">Сертифицированные саженцы</a>
+                                <a href="#">Контракт на поставку саженцев</a>
+                                <a href="#">Анализ плантаций</a>
+                                <a href="#">Расчет прибыльности бизнеса</a>
+                                <a href="#">Пособие по взращиванию </a>
+                                <a href="#">Выкуп древесины</a>
+                            </div>
+                        </li>
+                        <li><a href="#">О НАС</a></li>
+                    </ul>
+                </div>
+                <div class="user_prpfile">
+                    <span class="icons"></span>
+                    <span class="icons"></span>
+                    <span class="icons"></span>
+                    <span class="icons" id="icons_open_modal">
+                        <div class="opening_modal">
+                            <a href="#">Мои данные</a>
+                            <a href="#">Корзина</a>
+                            <a href="#">Список желаний</a>
+                            <a href="#">Заказы</a>
+                            <a href="#">Расчеты прибыльности</a>
+                            <a href="#">Мои плантации</a>
+                            <a href="#">Документы</a>
+                            <a href="#">Настройка пароля</a>
+                            <button class="login">Sign out</button>
+                        </div>
+                    </span>
+                    <div id="languages">
+                        <p class="active_languages">RU</p>
+                        <a href="#" class="countryCode">ES</a>
+                        <a href="#" class="countryCode">EN</a>
+                        <a href="#" class="countryCode">RU</a>
+                        <a href="#" class="countryCode">PT</a>
+                        <a href="#" class="countryCode">FR</a>
+                        <a href="#" class="countryCode">IT</a>
+                        <a href="#" class="countryCode">UA</a>
+                        <a href="#" class="countryCode">AR</a>
+                        <a href="#" class="countryCode">PL</a>
+                    </div>
+                </div>
+                <a class="compani_info" href="tel:+34642787555">+34 642 787 555</a>
+                <a class="compani_info" href="mailto:info@paulownia.pro">info@paulownia.pro</a>
+                <button class="send_massange">напишите нам</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- mobile menu -->
+    <div class="mobile_menu">
+        <div class="mobile_menu_nav">
+            <div class="menu_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <span>Menu</span>
+            <div class="icon_close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <!-- table menu  -->
+        <div class="table_menu">
+            <a href="#">главная</a>
+            <div class="table_podmenu_one">
+                <p class="text_one_podmenu">Павловния <i class="fas fa-chevron-left" id="mob_menu_icons_to_open_1"></i>
+                </p>
+                <a href="#">О павловнии</a>
+                <a href="#">Наши гибриды</a>
+                <a href="#">Создание плантаций</a>
+                <a href="#">Павлвния в саду</a>
+                <a href="#">Древесина</a>
+                <a href="#">Брошюра</a>
+            </div>
+
+            <a href="#">Магазин</a>
+            <a href="#">Новости</a>
+            <a href="#">Галерея</a>
+
+            <div class="table_podmenu_two">
+                <p class="text_one_podmenu_tow">Бизнес - план <i class="fas fa-chevron-left"
+                        id="mob_menu_icons_to_open_2"></i>
+                </p>
+                <a href="#">Сертифицированные саженцы</a>
+                <a href="#">Контракт на поставку саженцев</a>
+                <a href="#">Анализ плантаций</a>
+                <a href="#">Расчет прибыльности бизнеса</a>
+                <a href="#">Пособие по взращиванию</a>
+                <a href="#">Выкуп древесины</a>
+            </div>
+
+            <a href="#">О нас</a>
+
+            <div class="table_podmenu_three">
+                <p class="text_one_podmenu_three">Личный кабинет <i class="fas fa-chevron-left"
+                        id="mob_menu_icons_to_open_3"></i></p>
+                <a href="#">Мои данные</a>
+                <a href="#">Корзина</a>
+                <a href="#">Список желаний</a>
+                <a href="#">Заказы</a>
+                <a href="#">Расчеты прибыльности</a>
+                <a href="#">Мои плантации</a>
+                <a href="#">Документы</a>
+                <a href="#">Настройка пароля</a>
+            </div>
+        </div>
+        <button class="menu_buttons_for_regLog">вход</button>
+        <button class="menu_buttons_for_regREG">регистрация</button>
+    </div>
+
+    <section class="products_page">
+        <div class="contener">
+            <p class="maps_site">Главная>Все товары>Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+            <div class="titles">
+                <p class="title">PAULOWNIA PROFESSIONAL®</p>
+                <p class="sub_title">наши товары</p>
+            </div>
+            <div class="products_blocks">
+                <div class="block_info_and_image">
+                    <div class="product_image">
+                        <div class="slider_image">
+                            <span class="btn_top">
+                                <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <div class="image">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                                <img class="img" src="img/product_page_image.png" alt="A">
+                            </div>
+                            <span class="btn_bottom">
+                                <i class="fas fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="slidr_to_mobile">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                            <img class="img" src="img/product_page_image.png" alt="A">
+                        </div>
+
+
+                        <div class="full_image">
+                            <div class="quantity">
+                                в наличии 1000шт
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <p class="title">Paulownia Elongata горшок 600мл</p>
+                        <p class="info"><span>Артикул:</span> Paulownia Elongata 600m</p>
+                        <p class="info"><span>Категории:</span> <a href="#">Все товары, ELONGATA</a></p>
+                        <p class="info"><span>Размер:</span> 25-40 см</p>
+                        <p class="info"><span>Возраст:</span> саженец</p>
+                        <p class="info"><span>инимальный заказ:</span> <span id="fix_price">М 4шт.</span> </p>
+                        <div class="borduct_price">
+                            <p class="price_one"><span class="price">4.00</span> €/<span class="price_quan">1</span> шт
+                            </p>
+                            <div class="body_inputs">
+                                <button class="minus" id="minus">-</button>
+                                <span id="product_quantity" class="product_quantity">1</span>
+                                <button class="pluse" id="pluse">+</button>
+                            </div>
+
+                            <p class="price_two"><span class="price">4.00</span> €/<span class="price_quan">1</span> шт
+                            </p>
+                        </div>
+                        <div class="send_poduct">
+                            <div class="like"></div>
+                            <button class="buy">
+                                <div class="buy_icon"></div>
+                                в корзину
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="descreption_products">
+                    <div class="tables">
+                        <span class="tebles_texts active">Описание</span>
+                        <span class="tebles_texts">характеристики</span>
+                        <span class="tebles_texts">Дополнительная Информация</span>
+                    </div>
+                    <div class="descreption_products_text">
+                        <img src="img/prod_derection_img.png" alt="Img">
+                        <p class="text">
+                            Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa, Fortunei,
+                            Kawakamii. Самый популярный и любимый в Японии за его быстрый рост и высокое качество
+                            древесины. Очень мощный, с превосходной скоростью роста, адаптируется под перепады
+                            температур окружающей среды, почвы. Наиболее устойчивы к болезням, жаре, засухе и холоду до
+                            -33° C (самый морозоустойчивый из всех сортов). Идеально подходит для плантаций Европы и
+                            стран СНГ в частности, где имеется сильные перепады температур и крепкие морозы. На второй
+                            год после посадки достигает 6-8 метров, что позволяет получить нам высокий, ровный, без
+                            сучков ствол высшего качества! Позволяет посадку 4м x 4м (640 деревьев / га) и 4м х 3м (850
+                            деревьев / га), за счет не большой кроны дерева.
+                        </p>
+                    </div>
+                    <div class="descreption_products_text" style="display: none;">
+                        <img src="img/prod_derection_img.png" alt="Img">
+                        <p class="text">
+                            Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa, Fortunei,
+                            Kawakamii. Самый популярный и любимый в Японии за его быстрый рост и высокое качество
+                            древесины. Очень мощный, с превосходной скоростью роста, адаптируется под перепады
+                            температур окружающей среды, почвы. Наиболее устойчивы к болезням, жаре, засухе и холоду до
+                            -33° C (самый морозоустойчивый из всех сортов). Идеально подходит для плантаций Европы и
+                            стран СНГ в частности, где имеется сильные перепады температур и крепкие морозы. На второй
+                            год после посадки достигает 6-8 метров, что позволяет получить нам высокий, ровный, без
+                            сучков ствол высшего качества! Позволяет посадку 4м x 4м (640 деревьев / га) и 4м х 3м (850
+                            деревьев / га), за счет не большой кроны дерева.
+                        </p>
+                    </div>
+                    <div class="descreption_products_text" style="display: none;">
+                        <img src="img/prod_derection_img.png" alt="Img">
+                        <p class="text">
+                            Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa, Fortunei,
+                            Kawakamii. Самый популярный и любимый в Японии за его быстрый рост и высокое качество
+                            древесины. Очень мощный, с превосходной скоростью роста, адаптируется под перепады
+                            температур окружающей среды, почвы. Наиболее устойчивы к болезням, жаре, засухе и холоду до
+                            -33° C (самый морозоустойчивый из всех сортов). Идеально подходит для плантаций Европы и
+                            стран СНГ в частности, где имеется сильные перепады температур и крепкие морозы. На второй
+                            год после посадки достигает 6-8 метров, что позволяет получить нам высокий, ровный, без
+                            сучков ствол высшего качества! Позволяет посадку 4м x 4м (640 деревьев / га) и 4м х 3м (850
+                            деревьев / га), за счет не большой кроны дерева.
+                        </p>
+                    </div>
+                </div>
+                <div class="popular_product">
+                    <p class="title">PAULOWNIA PROFESSIONAL®</p>
+                    <p class="sub_title">популярные товары</p>
+                    <div class="popular_product_body">
+                        <div class="body_slider">
+                            <div class="top_text">TOP</div>
+                            <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                            <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                            <div class="product_info">
+                                <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                            </div>
+                            <div class="price_likes">
+                                <div class="price">
+                                    <div class="old_price">3250 $</div>
+                                    <div class="new_price">2999 $</div>
+                                </div>
+                                <div class="likes">
+                                    <div class="like"></div>
+                                    <div class="buy"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body_slider">
+                            <div class="top_text">TOP</div>
+                            <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                            <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                            <div class="product_info">
+                                <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                            </div>
+                            <div class="price_likes">
+                                <div class="price">
+                                    <div class="old_price">3250 $</div>
+                                    <div class="new_price">2999 $</div>
+                                </div>
+                                <div class="likes">
+                                    <div class="like"></div>
+                                    <div class="buy"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body_slider">
+                            <div class="top_text">TOP</div>
+                            <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                            <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                            <div class="product_info">
+                                <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                            </div>
+                            <div class="price_likes">
+                                <div class="price">
+                                    <div class="old_price">3250 $</div>
+                                    <div class="new_price">2999 $</div>
+                                </div>
+                                <div class="likes">
+                                    <div class="like"></div>
+                                    <div class="buy"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body_slider">
+                            <div class="top_text">TOP</div>
+                            <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                            <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                            <div class="product_info">
+                                <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                            </div>
+                            <div class="price_likes">
+                                <div class="price">
+                                    <div class="old_price">3250 $</div>
+                                    <div class="new_price">2999 $</div>
+                                </div>
+                                <div class="likes">
+                                    <div class="like"></div>
+                                    <div class="buy"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+            <!-- you wiev  -->
+                    <div class="popular_product">
+                        <p class="title" style="margin-top: 100px;">PAULOWNIA PROFESSIONAL®</p>
+                        <p class="sub_title">вы просматривали</p>
+                        <div class="popular_product_body">
+                            <div class="body_slider">
+                                <div class="top_text">TOP</div>
+                                <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                                <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                                <div class="product_info">
+                                    <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                    <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                    <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                                </div>
+                                <div class="price_likes">
+                                    <div class="price">
+                                        <div class="old_price">3250 $</div>
+                                        <div class="new_price">2999 $</div>
+                                    </div>
+                                    <div class="likes">
+                                        <div class="like"></div>
+                                        <div class="buy"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_slider">
+                                <div class="top_text">TOP</div>
+                                <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                                <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                                <div class="product_info">
+                                    <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                    <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                    <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                                </div>
+                                <div class="price_likes">
+                                    <div class="price">
+                                        <div class="old_price">3250 $</div>
+                                        <div class="new_price">2999 $</div>
+                                    </div>
+                                    <div class="likes">
+                                        <div class="like"></div>
+                                        <div class="buy"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_slider">
+                                <div class="top_text">TOP</div>
+                                <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                                <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                                <div class="product_info">
+                                    <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                    <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                    <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                                </div>
+                                <div class="price_likes">
+                                    <div class="price">
+                                        <div class="old_price">3250 $</div>
+                                        <div class="new_price">2999 $</div>
+                                    </div>
+                                    <div class="likes">
+                                        <div class="like"></div>
+                                        <div class="buy"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_slider">
+                                <div class="top_text">TOP</div>
+                                <img src="img/slader_test_photo.png" alt="Text Product" class="slider_product_photo">
+                                <p class="title">Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л</p>
+                                <div class="product_info">
+                                    <p class="product_info_texts"><span>Размер:</span> 1 метр</p>
+                                    <p class="product_info_texts"><span>Возраст:</span> 3 года</p>
+                                    <p class="product_info_texts"><span>Контейнер:</span> 5 литров</p>
+                                </div>
+                                <div class="price_likes">
+                                    <div class="price">
+                                        <div class="old_price">3250 $</div>
+                                        <div class="new_price">2999 $</div>
+                                    </div>
+                                    <div class="likes">
+                                        <div class="like"></div>
+                                        <div class="buy"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+        </div>
+
+    </section>
+
+    <footer style="margin-top: 120px;">
+        <img class="img1" src="img/footer_bg.svg" alt="Footer Image">
+        <img class="img2" src="img/mobile_footer_img.png" alt="Footer Image">
+        <div class="footer_body">
+            <div class="main">
+                <div class="contener">
+                    <span class="title">Разделы:</span>
+                    <a href="#" class="text">ГЛАВНАЯ</a>
+                    <a href="#" class="text">ПАВЛОВНИЯ</a>
+                    <a href="#" class="text">МАГАЗИН</a>
+                    <a href="#" class="text">галерея</a>
+                    <a href="#" class="text">НОВОСТИ</a>
+                    <a href="#" class="text">БИЗНЕС-ПЛАН</a>
+                    <a href="#" class="text">КОНТАКТЫ</a>
+                </div>
+                <div class="contener">
+                    <span class="title">Услуги Paulownia Professional®:</span>
+                    <a href="#" class="text">Продажа саженцев и деревьев павловнии</a>
+                    <a href="#" class="text">Купля/Продажа древесины</a>
+                    <a href="#" class="text">Анализ и персональное проектирование плантаций</a>
+                    <a href="#" class="text">Расчет рентабельности инвестиций</a>
+                    <a href="#" class="text">Консультация на протяжении выращивания</a>
+                    <a href="#" class="text">Выкупаем плантации павловнии</a>
+                </div>
+                <div class="contener">
+                    <span class="title">Правовое предупреждение:</span>
+                    <a href="#" class="text">Условия покупки</a>
+                    <a href="#" class="text">политика конфиденциальности</a>
+                    <a href="#" class="text">FAQ Магазин</a>
+                    <a href="#" class="text">FAQ Уход за саженцами </a>
+                    <a href="#" class="text">Карта сайта</a>
+                </div>
+                <div class="contener">
+                    <span class="title">График работы:</span>
+                    <span class="text"><span style="font-weight: 800">Пн-Пт:</span> 9:00-18:00</span>
+                    <a href="tel:+34642787555" class="text"> +34 642 787 555</a>
+                    <a href="mailto: info@paulownia.pro" class="text">info@paulownia.pro</a>
+                </div>
+                <a href="#" class="send_massange">
+                    <span class="icon_massange"></span>
+                    <button class="text_sends">напишите нам</button>
+                </a>
+                <div class="sites">
+                    <a href="#" class="sites_icon"></a>
+                    <a href="#" class="sites_icon"></a>
+                    <a href="#" class="sites_icon"></a>
+                </div>
+                <div class="card"></div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- page registration -->
+    <div class="page_reg">
+        <div class="title_reg">
+            создать аккаунт
+            <div class="icon_close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!-- form registration -->
+        <form action="#" id="form_reg">
+            <input type="text" name="name" placeholder="Имя Фамилия" />
+            <input type="text" name="last_name" placeholder="Название фирмы" />
+            <input type="text" name="ferm_id_number" placeholder="ID (индитыфикационный номер)" />
+            <input type="text" name="adress" placeholder="Адрес" />
+            <select name="countr" value="">
+                <option value="">Страна</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <input type="text" name="index" placeholder="Индекс" />
+            <select name="city" value="">
+                <option value="">Город</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <select name="province" value="">
+                <option value="">Провинция</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <input type="text" name="tel" placeholder="ТЕЛЕФОН (+380) " />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <p class="capcha">Capcha</p>
+            <input class="submit" type="submit" value="создать аккаунт" />
+        </form>
+        <div class="teg_or"></div>
+        <!-- reg soc set  -->
+        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+        <p class="police_pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+        <p class="info_site">Paulownia proffesional is committed to keeping your information confidential</p>
+    </div>
+
+    <!-- page logout mobile  -->
+    <div class="page_logot">
+        <div class="title_logout">
+            создать аккаунт
+            <div class="icon_close_logout">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <form action="#" id="form_logout">
+            <input type="text" name="email" value="Email" />
+            <input type="password" name="password" value="Password" />
+            <div class="chackbox">
+                <input type="checkbox" id="chack_logout" />
+                <label for="chack_logout">запомнить в системе</label>
+            </div>
+            <p class="capcha">Capcha</p>
+            <input class="submit" type="submit" value="вход" />
+        </form>
+        <div class="teg_or"></div>
+        <!-- reg soc set  -->
+        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+        <p class="police_pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+        <p class="info_site">Paulownia proffesional is committed to keeping your information confidential</p>
+    </div>
+
+    <!-- registration popup dekstop  -->
+    <div class="registration_popup">
+        <!-- body registration  -->
+        <div class="body_registration_popup">
+            <div class="header_registration_popup">
+                <div class="login">войти</div>
+                <div class="title">создать аккаунт</div>
+                <div class="icon_close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <!-- block inputs -->
+            <div class="block_reg">
+                <form action="#">
+                    <div class="block one">
+                        <input type="text" name="name" placeholder="Имя Фамилия" />
+                        <input type="text" name="last_name" placeholder="Название фирмы" />
+                        <input type="text" name="ferm_id_number" placeholder="ID (индитыфикационный номер)" />
+                        <input type="text" name="adress" placeholder="Адрес" />
+                        <div class="sec">
+                            <span class="op_t">Страна</span>
+                            <div class="body_sec">
+                                <span class="op">Страна</span>
+                                <span class="op">Страна</span>
+                                <span class="op">Страна</span>
+                            </div>
+                        </div>
+                        <input type="text" name="index" placeholder="Индекс" />
+                        <div class="sec">
+                            <span class="op_t">Город</span>
+                            <div class="body_sec">
+                                <span class="op">Город</span>
+                                <span class="op">Город</span>
+                                <span class="op">Город</span>
+                            </div>
+                        </div>
+                        <div class="sec">
+                            <span class="op_t">Провинция</span>
+                            <div class="body_sec">
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">BПровинцияG</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                                <span class="op">Провинция</span>
+                            </div>
+                        </div>
+
+                        <p class="pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted
+                            our <a href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+                        <p class="pravice">Paulownia proffesional is committed to keeping your information confidential
+                        </p>
+                    </div>
+                    <!-- two block  -->
+                    <div class="block two">
+                        <input type="text" name="tel" placeholder="ТЕЛЕФОН (+380) " />
+                        <input type="email" name="email" placeholder="Email" />
+                        <input type="password" name="password" placeholder="Password" />
+                        <p class="capcha">Capcha</p>
+                        <input class="submit" type="submit" value="создать аккаунт" />
+                        <div class="teg_or"></div>
+                        <!-- reg soc set  -->
+                        <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+                        <button class="socsite">регистрация через <b>GOOGLE</b></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- body login  -->
+        <div class="body_login_popup">
+            <div class="header_login_popup">
+                <div class="login">войти</div>
+                <div class="title">создать аккаунт</div>
+                <div class="icon_close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <form action="#">
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <div class="pemember_block">
+                    <div class="pemember" data-pemember="false">
+                        <span class="chackbox">
+                            <div class="chack"></div>
+                        </span>
+                        <span class="text">запомнить в системе</span>
+                    </div>
+                    <div class="forgot">забыли пароль?</div>
+                </div>
+                <input type="submit" class="submit" />
+                <div class="teg_or"></div>
+                <!-- reg soc set  -->
+                <button class="socsite">регистрация через <b>FACEBOOK</b></button>
+                <button class="socsite">регистрация через <b>GOOGLE</b></button>
+                <p class="pravice">By <a href="#">CREATE AN ACCOUNT</a> you agree that you`ve read and accepted our <a
+                        href="#">privacy policy</a> and <a href="#">terms conditions.</a></p>
+                <p class="pravice">Paulownia proffesional is committed to keeping your information confidential</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>
